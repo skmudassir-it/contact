@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+:root {
+    --background: 210 40% 98%;
+    --foreground: 222 47% 11%;
+}
+
+@layer base {
+    body {
+        min-height: 100vh;
+        background-color: #fdf2f8;
+        background-image:
+            radial-gradient(circle at 50% 50%, rgba(255, 255, 255, 0.4), transparent),
+            linear-gradient(135deg, #fdf2f8 0%, #e0f2fe 100%);
+    }
+}
